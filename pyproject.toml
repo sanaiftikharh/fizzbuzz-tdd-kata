@@ -7,6 +7,9 @@ requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [{ name = "Your Name", email = "you@example.com" }]
 
+[project.scripts]
+fizzbuzz-kata = "fizzbuzz_kata.cli:main"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
