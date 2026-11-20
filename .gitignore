@@ -10,3 +10,5 @@ wheels/
 .venv
 __marimo__/
 .coverage
+
+site/
