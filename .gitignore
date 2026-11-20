@@ -10,5 +10,6 @@ wheels/
 .venv
 __marimo__/
 .coverage
+.python-version
 
 site/
