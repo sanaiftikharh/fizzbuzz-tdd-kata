@@ -20,17 +20,23 @@ The project is packaged as `fizzbuzz-kata` version `0.1.0`.
 [![Publish package](https://github.com/sanaiftikharh/fizzbuzz-tdd-kata/actions/workflows/publish.yml/badge.svg)](https://github.com/sanaiftikharh/fizzbuzz-tdd-kata/actions/workflows/publish.yml)
 [![Deploy Pages](https://github.com/sanaiftikharh/fizzbuzz-tdd-kata/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/sanaiftikharh/fizzbuzz-tdd-kata/actions/workflows/deploy-pages.yml)
 
+## Interactive Demo
+
+Explore the FizzBuzz implementation in the deployed Marimo notebook:
+
+[Open the FizzBuzz demo](https://sanaiftikharh.github.io/fizzbuzz-tdd-kata/)
+
 ## FizzBuzz Rules
 
 For any strictly positive integer:
 
-| Condition | Result |
-|---|---|
-| Multiple of both 3 and 5 | `FizzBuzz` |
-| Multiple of 3 only | `Fizz` |
-| Multiple of 5 only | `Buzz` |
+| Condition                  | Result                 |
+| -------------------------- | ---------------------- |
+| Multiple of both 3 and 5   | `FizzBuzz`             |
+| Multiple of 3 only         | `Fizz`                 |
+| Multiple of 5 only         | `Buzz`                 |
 | Any other positive integer | The number as a string |
-| Zero or negative integer | `ValueError` |
+| Zero or negative integer   | `ValueError`           |
 
 Examples:
 
@@ -400,10 +406,6 @@ The repository history shows the assignment workflow:
 - CLI exposure;
 - Marimo and package integration;
 - GitHub Pages project-site deployment.
-
-## License
-
-This project declares the MIT license in `pyproject.toml`.
 
 ## Author
 
