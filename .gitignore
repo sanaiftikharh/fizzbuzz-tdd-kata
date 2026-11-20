@@ -11,4 +11,4 @@ wheels/
 __marimo__/
 .coverage
 
-.site/
+site/

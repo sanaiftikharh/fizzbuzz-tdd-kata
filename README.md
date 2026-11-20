@@ -97,16 +97,16 @@ from fizzbuzz_kata.core import fizzbuzz
 The function accepts only positive integers:
 
 ```python
-fizzbuzz(15)   # "FizzBuzz"
+fizzbuzz(15)  # "FizzBuzz"
 fizzbuzz(100)  # "Buzz"
 ```
 
 Zero, negative numbers, booleans, floats, and other non-integer values raise `ValueError`.
 
 ```python
-fizzbuzz(0)     # ValueError
-fizzbuzz(-5)    # ValueError
-fizzbuzz(3.0)   # ValueError
+fizzbuzz(0)  # ValueError
+fizzbuzz(-5)  # ValueError
+fizzbuzz(3.0)  # ValueError
 ```
 
 ## Command-Line Interface
